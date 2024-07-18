@@ -1,6 +1,7 @@
 import type {FC} from 'react';
 import {Logo} from '@app/components/svg';
 import getFAQData from '@app/data/faq-data';
+import {FAQSection} from '@app/components/organisms';
 
 const Home: FC = (): React.ReactElement => {
 	// Use the data from getFAQData() to render the FAQ component
@@ -15,7 +16,7 @@ const Home: FC = (): React.ReactElement => {
 			</div>
 			<div className="mt-24 container">
 				{/* Replace the div below with the missing component */}
-				<div className="flex items-center justify-center border-2 border-dashed border-neutral-500 aspect-[16/7] rounded-lg"/>
+				<FAQSection/>
 			</div>
 		</main>
 	);
