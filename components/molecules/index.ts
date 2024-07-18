@@ -1,2 +1,2 @@
-/* eslint-disable unicorn/no-empty-file */
-// export {default as XYZ} from './xyz';
+export {default as FAQQuestion} from './faq-question';
+export {default as FAQAnswer} from './faq-answer';
